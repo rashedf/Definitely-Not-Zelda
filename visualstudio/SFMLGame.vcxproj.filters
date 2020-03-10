@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Assets.cpp" />
+    <ClCompile Include="..\src\Entity.cpp" />
+    <ClCompile Include="..\src\EntityManager.cpp" />
+    <ClCompile Include="..\src\GameEngine.cpp" />
+    <ClCompile Include="..\src\GameState.cpp" />
+    <ClCompile Include="..\src\GameState_Play.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Physics.cpp" />
+    <ClCompile Include="..\src\Vec2.cpp" />
+    <ClCompile Include="..\src\Animation.cpp" />
+    <ClCompile Include="..\src\GameState_Menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Assets.h" />
+    <ClInclude Include="..\src\Common.h" />
+    <ClInclude Include="..\src\Components.h" />
+    <ClInclude Include="..\src\Entity.h" />
+    <ClInclude Include="..\src\EntityManager.h" />
+    <ClInclude Include="..\src\GameEngine.h" />
+    <ClInclude Include="..\src\GameState.h" />
+    <ClInclude Include="..\src\GameState_Play.h" />
+    <ClInclude Include="..\src\Physics.h" />
+    <ClInclude Include="..\src\Vec2.h" />
+    <ClInclude Include="..\src\Animation.h" />
+    <ClInclude Include="..\src\GameState_Menu.h" />
+  </ItemGroup>
+</Project>
